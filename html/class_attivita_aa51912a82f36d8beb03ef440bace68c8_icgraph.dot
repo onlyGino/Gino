@@ -1,0 +1,30 @@
+digraph "Attivita::getDescrizione"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node12 [label="Attivita::getDescrizione",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="acquisizione descrizione dell'attivita'"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe",tooltip=" "];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Progetto::eliminaAttivita",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#a63dc44f265d5c6b94b18b2a2a45d76bf",tooltip="eliminazione di un'attivita' dal progetto"];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="TEST",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test_8cpp.html#a6742edfc6016034907008dd8f60e8ea7",tooltip=" "];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Progetto::esportaAttivita\lSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#aef3aa2d678b122a83f75258d33869941",tooltip="esportazione delle attivita' del progetto su file"];
+  Node16 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="TEST",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test_8cpp.html#ae8e36799309d24a81937886f16da09b5",tooltip=" "];
+  Node12 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Progetto::esportaAttivita\lCompletateSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#a53ae2546ae592bb4d2d9b2a27ec631f9",tooltip="esportazione delle attivita' COMPLETATE del progetto su file"];
+  Node18 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Progetto::esportaAttivita\lInScadenzaSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#a243a4a9d57f1a66727f3f937fa0450c9",tooltip="esportazione delle attivita' in scadenza prima di una specifica data del progetto su file"];
+  Node19 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="TEST",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$test_8cpp.html#af80be6e4fdab0efcb174ed582ca6ee54",tooltip=" "];
+}

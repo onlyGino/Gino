@@ -1,0 +1,14 @@
+digraph "Progetto::esportaAttivitaInScadenzaSuFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61 [label="Progetto::esportaAttivita\lInScadenzaSuFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="esportazione delle attivita' in scadenza prima di una specifica data del progetto su file"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="Attivita::getDescrizione",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_attivita.html#aa51912a82f36d8beb03ef440bace68c8",tooltip="acquisizione descrizione dell'attivita'"];
+  Node61 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="Date::diff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#acf0a50044c24f962c53ec23adf2a940d",tooltip=" "];
+  Node61 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="Attivita::getScadenza",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_attivita.html#a1622c90b07bf0d640e092cb99adb0eff",tooltip="acquisizione della data di scadenza dell'attivita'"];
+}

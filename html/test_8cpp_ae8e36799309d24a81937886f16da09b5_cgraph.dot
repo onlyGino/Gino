@@ -1,0 +1,24 @@
+digraph "TEST"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node58 [label="TEST",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="Progetto::esportaAttivita\lSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#aef3aa2d678b122a83f75258d33869941",tooltip="esportazione delle attivita' del progetto su file"];
+  Node59 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="Attivita::getDescrizione",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_attivita.html#aa51912a82f36d8beb03ef440bace68c8",tooltip="acquisizione descrizione dell'attivita'"];
+  Node58 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="Progetto::esportaAttivita\lCompletateSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#a53ae2546ae592bb4d2d9b2a27ec631f9",tooltip="esportazione delle attivita' COMPLETATE del progetto su file"];
+  Node61 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="Date::setDate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#a19eb26bdd61f068b5c3841e3a084d549",tooltip=" "];
+  Node58 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="Progetto::esportaAttivita\lInScadenzaSuFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_progetto.html#a243a4a9d57f1a66727f3f937fa0450c9",tooltip="esportazione delle attivita' in scadenza prima di una specifica data del progetto su file"];
+  Node63 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="Date::diff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_date.html#acf0a50044c24f962c53ec23adf2a940d",tooltip=" "];
+  Node63 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="Attivita::getScadenza",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_attivita.html#a1622c90b07bf0d640e092cb99adb0eff",tooltip="acquisizione della data di scadenza dell'attivita'"];
+}

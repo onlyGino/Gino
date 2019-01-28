@@ -1,0 +1,10 @@
+digraph "Progetto::esportaAttivitaCompletateSuFile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node56 [label="Progetto::esportaAttivita\lCompletateSuFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="esportazione delle attivita' COMPLETATE del progetto su file"];
+  Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="Attivita::getDescrizione",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_attivita.html#aa51912a82f36d8beb03ef440bace68c8",tooltip="acquisizione descrizione dell'attivita'"];
+}
